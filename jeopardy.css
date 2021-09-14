@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  background-color: rgb(36, 32, 32);
+  background-image: url(https://www.buzzerblog.com/wp-content/uploads/2021/09/jeopardy-logo.jpg);
+  background-blend-mode: lighten;
+  background-repeat: repeat;
+  background-position: right center;
+  background-size: 200px;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+#jeopardy {
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+}
+
+#loading {
+  display: flex;
+  justify-content: center;
+}
+
+th,
+td {
+  border: 2px solid black;
+}
+
+.header-row {
+  background-color: #060ce9;
+}
+
+th {
+  padding: 15px;
+  width: 150px;
+}
+
+.body-row {
+  background: #115ff4;
+  height: 150px;
+  text-align: center;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+.start {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #8d2ab5;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.start:hover {
+  cursor: pointer;
+  filter: brightness(150%);
+}
