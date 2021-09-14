@@ -6,4 +6,4 @@ https://dnhem.github.io/Jeopardy/
 
 ❓❓❓ Built UI for player with click events 
 
-❓❓❓ Categories associated with their clues and answers
+❓❓❓ RANDOM Categories associated with their clues and answers
